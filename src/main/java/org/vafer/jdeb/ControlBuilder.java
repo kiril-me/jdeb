@@ -48,7 +48,7 @@ import org.vafer.jdeb.utils.VariableResolver;
 class ControlBuilder {
     
     /** The name of the package maintainer scripts */
-    private static final Set<String> MAINTAINER_SCRIPTS = new HashSet<String>(Arrays.asList("preinst", "postinst", "prerm", "postrm", "config"));
+    private static final Set<String> MAINTAINER_SCRIPTS = new HashSet<String>(Arrays.asList("preinst", "postinst", "prerm", "postrm", "config", "rules"));
 
     /** The name of the other control files subject to token substitution */
     private static final Set<String> CONFIGURATION_FILENAMES = new HashSet<String>(Arrays.asList("conffiles", "templates", "triggers"));
